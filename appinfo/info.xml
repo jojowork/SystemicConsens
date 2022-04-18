@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>systemicconsens</id>
+    <name>Systemic Consens</name>
+    <summary>make better collective decisions with systemic consens</summary>
+    <description><![CDATA[This App supports you and your group to make better collective decissions with the 
+sytemic consens principle]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="jojo009@web.de" homepage="https://github.com/jojowork">jojo</author>
+    <namespace>SystemicConsens</namespace>
+    <category>social</category>
+    <category>tools</category>
+    <bugs>https://github.com/jojowork/systemic-consens</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Systemic Consens</name>
+            <route>systemicconsens.page.index</route>
+        </navigation>
+    </navigations>
+</info>

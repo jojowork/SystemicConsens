@@ -1,0 +1,15 @@
+{
+    "name": "Systemic Consens",
+    "description": "make better collective decisions with systemic consens",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "jojo"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
